@@ -29,6 +29,6 @@ void			ft_bzero(void *s, size_t n);
 void			*ft_memalloc(size_t size);
 char			*ft_strnew(size_t size);
 char			*ft_strcpy(char *dst, const char *src);
-void			append_list(t_list **lst, char c, size_t i);
+void			append_line(t_read **lst, char c, size_t i);
 
 #endif
