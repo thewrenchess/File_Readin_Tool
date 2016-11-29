@@ -12,7 +12,7 @@
 
 #include "readin.h"
 
-void	append_list(t_list **lst, char c, size_t i)
+void	append_list(t_read **lst, char c, size_t i)
 {
 	char	*temp;
 

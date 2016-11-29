@@ -12,15 +12,15 @@
 
 #include "readin.h"
 
-void	ft_read_in(const char *src, t_list *lst)
+void	ft_read_in(const char *src, t_read *lst)
 {
 	int		fd;
 	char	buf;
 	size_t	i;
 
 	fd = open(src, O_RDONLY);
-	if (fd < 3)
-		exit(1);
+	if (fd == -1)
+		return ;
 	buf = '\0';
 	i = 0;
 	while (read(fd, &buf, 1))

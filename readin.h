@@ -19,11 +19,11 @@
 # include <sys/uio.h>
 # include <stdlib.h>
 
-typedef	struct	s_list
+typedef	struct	s_read
 {
 	size_t		buf_size;
 	char		*str;
-}				t_list;
+}				t_read;
 
 void			ft_bzero(void *s, size_t n);
 void			*ft_memalloc(size_t size);
