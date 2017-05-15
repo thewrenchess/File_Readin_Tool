@@ -1,16 +1,15 @@
 # File_Readin_Tool
-A tool for file read in w/ active malloc
+This File Readin Tool is A tool for file read in w/ active malloc.
 
-Created by yherrera.
+## INSTALLATION
+1. Download this repository to the program you need the files read;
+2. Make sure the 'ft_read_in.h' gets to the right folder and gets '#include';
+3. Make sure to include all neccessary '.c' files in your 'srcs' folder and 'Makefile'.
 
-There is no main in this repository.
+## USAGE
+1. Pass the 'file descriptor' (can be 0) and a un-initialized 'line' into the function;
+2. Make sure to free the 'line' after usage;
+3. If function return '0', file read successfully, '-1' means otherwise.
 
-1) Download all the .c and .h
-
-2) Make neccessary changes to fit your program
-
-3) call on
-void	ft_read_in(const char *src, t_list *lst)
-to read in
-
-^__^
+## NOTE
+- There is a 'resources' folder that contains some test files if you would like to test before using them.
