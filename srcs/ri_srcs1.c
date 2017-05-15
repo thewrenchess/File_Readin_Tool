@@ -6,11 +6,11 @@
 /*   By: yherrera <yherrera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/15 09:09:25 by yherrera          #+#    #+#             */
-/*   Updated: 2017/05/15 09:13:02 by yherrera         ###   ########.fr       */
+/*   Updated: 2017/05/15 11:59:50 by yherrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_read_in.h"
+#include "../includes/read_in.h"
 
 char		*ft_strcpy(char *dst, const char *src)
 {

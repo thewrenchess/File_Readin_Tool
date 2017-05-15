@@ -6,30 +6,11 @@
 /*   By: yherrera <yherrera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/15 09:56:40 by yherrera          #+#    #+#             */
-/*   Updated: 2017/05/15 11:22:46 by yherrera         ###   ########.fr       */
+/*   Updated: 2017/05/15 12:07:37 by yherrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_read_in.h"
-
-void		ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
-
-void		ft_putstr(char *s)
-{
-	int	i;
-
-	if (!s)
-		return ;
-	i = 0;
-	while (s[i])
-	{
-		ft_putchar(s[i]);
-		i++;
-	}
-}
+#include "../includes/read_in.h"
 
 char		*ft_strcat(char *s1, const char *s2, int len)
 {

@@ -6,11 +6,11 @@
 /*   By: yherrera <yherrera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/21 16:24:41 by yherrera          #+#    #+#             */
-/*   Updated: 2017/05/15 11:52:15 by yherrera         ###   ########.fr       */
+/*   Updated: 2017/05/15 12:05:33 by yherrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_read_in.h"
+#include "../includes/read_in.h"
 
 static void	ri_appendline(t_read *result, char *buf, int ret)
 {
