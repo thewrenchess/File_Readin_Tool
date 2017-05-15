@@ -6,7 +6,7 @@
 /*   By: yherrera <yherrera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/15 09:06:27 by yherrera          #+#    #+#             */
-/*   Updated: 2017/05/15 12:07:48 by yherrera         ###   ########.fr       */
+/*   Updated: 2017/05/15 12:27:41 by yherrera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@
 # include <stdlib.h>
 
 # define BUFF_SIZE 1024
+# define USAGE ft_putstr("USAGE: ./a.out (optional)<PATH OF FILE>\n")
 
 typedef struct	s_read
 {
